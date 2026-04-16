@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Semántica</title>
+    <link rel="icon" href="nike.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Landing de Zapatillas</h2>
+            <p>Descubre las mejores zapatillas para correr, entrenar y vestir con estilo urbano.</p>
+            <img src="https://images.unsplash.com/photo-1519741491307-3d3862b6d32c?auto=format&fit=crop&w=1200&q=80" alt="Primer plano de zapatillas deportivas modernas sobre fondo neutro" width="600">
+        </section>
+
+        <section id="acerca">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos una tienda especializada en zapatillas de alta calidad, diseño innovador y comodidad para cada paso.</p>
+            <img src="https://images.unsplash.com/photo-1528701800489-20b31c0c2a4d?auto=format&fit=crop&w=1200&q=80" alt="Colección de zapatillas deportivas y urbanas exhibidas en estantería" width="600">
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos un servicio completo para ayudarte a elegir las zapatillas perfectas según tu estilo y necesidades.</p>
+            <ul>
+                <li>Asesoría personalizada para elegir tu par ideal</li>
+                <li>Envíos rápidos y seguros a todo el país</li>
+                <li>Devoluciones fáciles y cambio de talla sin complicaciones</li>
+            </ul>
+        </section>
+
+        <section id="ofertas">
+            <h2>Comparativa de Modelos</h2>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <caption>Comparativa de zapatillas por modelo, uso y precio</caption>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Uso</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Runner X</td>
+                        <td>Correr diario</td>
+                        <td>$120</td>
+                    </tr>
+                    <tr>
+                        <td>Urban Flex</td>
+                        <td>Estilo casual</td>
+                        <td>$95</td>
+                    </tr>
+                    <tr>
+                        <td>Training Pro</td>
+                        <td>Entrenamiento</td>
+                        <td>$110</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Completa el formulario para recibir asesoría personalizada sobre zapatillas.</p>
+            <form action="#" method="post">
+                <div>
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div>
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="modelo">Modelo de zapatillas de interés</label>
+                    <input type="text" id="modelo" name="modelo">
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit">Enviar consulta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Todos los derechos reservados 33.</p>
+    </footer>
+</body>
+</html>
