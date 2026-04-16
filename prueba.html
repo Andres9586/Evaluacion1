@@ -1,17 +1,20 @@
+<!--tipo de documento-->
 <!DOCTYPE html>
+<!--idioma del documento-->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZAPATILLASS</title>
+    <title>ZAPATILLAS</title>
     <link rel="icon" href="nike.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo.css">
 </head>
+<!-- todo lo que ve el usuario-->
 <body>
     <header>
         <h1>Bienvenido</h1>
     </header>
-
+<!-- menu de navegación-->
     <nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
@@ -22,60 +25,70 @@
     </nav>
 
     <main>
-        <section id="inicio">
-            <h2>Landing de Zapatillas</h2>
-            <p>Descubre las mejores zapatillas para correr, entrenar y vestir con estilo urbano.</p>
-            <img src="https://images.unsplash.com/photo-1519741491307-3d3862b6d32c?auto=format&fit=crop&w=1200&q=80" alt="Primer plano de zapatillas deportivas modernas sobre fondo neutro" width="600">
+        <section id="inicio" class="card hero-card">
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <h2>Landing de Zapatillas</h2>
+                    <p>Descubre las mejores zapatillas para correr, entrenar y vestir con estilo urbano.</p>
+                    <a class="cta-button" href="#contacto">Solicita asesoría</a>
+                </div>
+            </div>
         </section>
 
-        <section id="acerca">
-            <h2>Acerca de Nosotros</h2>
-            <p>Somos una tienda especializada en zapatillas de alta calidad, diseño innovador y comodidad para cada paso.</p>
-            <img src="https://images.unsplash.com/photo-1528701800489-20b31c0c2a4d?auto=format&fit=crop&w=1200&q=80" alt="Colección de zapatillas deportivas y urbanas exhibidas en estantería" width="600">
+        <section id="acerca" class="card">
+            <div class="section-grid">
+                <div>
+                    <h2>Acerca de Nosotros</h2>
+                    <p>Somos una tienda especializada en zapatillas de alta calidad, diseño innovador y comodidad para cada paso.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="servicios">
+        <section id="servicios" class="card">
             <h2>Servicios</h2>
             <p>Ofrecemos un servicio completo para ayudarte a elegir las zapatillas perfectas según tu estilo y necesidades.</p>
-            <ul>
+            <ul class="service-list">
                 <li>Asesoría personalizada para elegir tu par ideal</li>
                 <li>Envíos rápidos y seguros a todo el país</li>
                 <li>Devoluciones fáciles y cambio de talla sin complicaciones</li>
             </ul>
         </section>
 
-        <section id="ofertas">
+        <section id="ofertas" class="card">
             <h2>Comparativa de Modelos</h2>
-            <table border="1" cellpadding="8" cellspacing="0">
-                <caption>Comparativa de zapatillas por modelo, uso y precio</caption>
-                <thead>
-                    <tr>
-                        <th>Modelo</th>
-                        <th>Uso</th>
-                        <th>Precio</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Runner X</td>
-                        <td>Correr diario</td>
-                        <td>$120</td>
-                    </tr>
-                    <tr>
-                        <td>Urban Flex</td>
-                        <td>Estilo casual</td>
-                        <td>$95</td>
-                    </tr>
-                    <tr>
-                        <td>Training Pro</td>
-                        <td>Entrenamiento</td>
-                        <td>$110</td>
-                    </tr>
-                </tbody>
-            </table>
+            <p class="section-intro">Encuentra el par ideal según tu uso y presupuesto.</p>
+            <div class="table-wrapper">
+                <table>
+                    <caption>Comparativa de zapatillas por modelo, uso y precio</caption>
+                    <thead>
+                        <tr>
+                            <th>Modelo</th>
+                            <th>Uso</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Runner X</td>
+                            <td>Correr diario</td>
+                            <td>$120</td>
+                        </tr>
+                        <tr>
+                            <td>Urban Flex</td>
+                            <td>Estilo casual</td>
+                            <td>$95</td>
+                        </tr>
+                        <tr>
+                            <td>Training Pro</td>
+                            <td>Entrenamiento</td>
+                            <td>$110</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
-        <section id="contacto">
+        <section id="contacto" class="card">
             <h2>Contacto</h2>
             <p>Completa el formulario para recibir asesoría personalizada sobre zapatillas.</p>
             <form action="#" method="post">
